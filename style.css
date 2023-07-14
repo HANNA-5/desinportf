@@ -1,0 +1,159 @@
+:root {
+  --primary-color: #4b92f0;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  padding: 4px 40px 4px 40px;
+  /*margin:0 auto;*/
+  /* max-width: 800px;*/
+  background-color: #d3c0c0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container text-center {
+  display: flex;
+  text-align: center;
+  flex-direction: row-reverse;
+  width: 1200px;
+  margin: 0 auto;
+}
+.Textcolor {
+
+  color: #2d0c2f; 
+
+}
+
+h1 {
+  font-size: 70px;
+  line-height: 80px;
+}
+
+h2 {
+  font-size: 50px;
+}
+span{
+  font-size: 22px;
+
+}
+p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 0 auto;
+  justify-content: center;
+  
+
+}
+
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-link {
+  margin: 0 avto;
+  padding: 15px 30px;
+  font-size: 15px;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.about-link {
+  margin: 0 avto;
+  padding: 30px 30px;
+  font-size: 15px;
+  color: var(--primary-color);
+  /* border: 1px solid var(--primary-color); */
+  background: rgb(244, 221, 97);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+  color: #3845d3;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+.navbar-brand {
+  font-size: 15px;
+}
+.col-sm-6 {
+  margin: 44px auto;
+  /*background: rgb(229, 217, 239);*/
+}
+img {
+  
+  /*background:rgb(184, 133, 228);*/
+  /*border-radius: 30px;*/
+  /* border:3px solid rgb(183, 219, 208) ;   */
+  box-shadow: 5px 5px 5px rgba(97, 54, 149, 0.3);
+}
+video{ 
+  box-shadow: 5px 5px 5px rgba(97, 54, 149, 0.3);
+
+}
+.text-wrapper {
+  margin: 64px auto;
+  text-align: center;
+}
+/*#contact{
+  margin: 150px auto 150px auto;
+}*/
+.textblok{ margin:auto;
+}
+.max-height-440{
+  max-height: 440px; 
+}
+.max-height-550{
+max-height: 550px;
+}
+
+.max-height-370{
+  max-height: 370px;
+  }
+  footer{
+    background: #cdd1da;
+    
+  }
+@media (max-width: 767px) {
+  /* Ваши стили для маленьких экранов */
+  body {
+    padding: 0;
+    width: 100%;
+  }
+}
